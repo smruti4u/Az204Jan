@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32002.185
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Webjobs", "ConsoleApp3\Webjobs.csproj", "{932828C0-1962-42A7-B205-93E8334CB1D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionApp", "FunctionApp\FunctionApp.csproj", "{812BD295-8C7C-4F9E-AED1-94EAB5857907}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobSDK", "BlobSDK\BlobSDK.csproj", "{90391680-E23D-4E76-9FF0-F55BE9B5BC3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDB.DotNetSDK", "CosmosDB.DotNetSDK\CosmosDB.DotNetSDK.csproj", "{7A7E54CC-4AB2-483F-BAEB-3B7BB1D57CC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDB.SP_Triggers_UDFS", "CosmosDB.SP_Triggers_UDFS\CosmosDB.SP_Triggers_UDFS.csproj", "{9B0D8F14-D8AD-4F75-A3D0-0DE5C237B8EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{932828C0-1962-42A7-B205-93E8334CB1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{932828C0-1962-42A7-B205-93E8334CB1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{932828C0-1962-42A7-B205-93E8334CB1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{932828C0-1962-42A7-B205-93E8334CB1D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{812BD295-8C7C-4F9E-AED1-94EAB5857907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{812BD295-8C7C-4F9E-AED1-94EAB5857907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{812BD295-8C7C-4F9E-AED1-94EAB5857907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{812BD295-8C7C-4F9E-AED1-94EAB5857907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90391680-E23D-4E76-9FF0-F55BE9B5BC3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90391680-E23D-4E76-9FF0-F55BE9B5BC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90391680-E23D-4E76-9FF0-F55BE9B5BC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90391680-E23D-4E76-9FF0-F55BE9B5BC3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A7E54CC-4AB2-483F-BAEB-3B7BB1D57CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A7E54CC-4AB2-483F-BAEB-3B7BB1D57CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A7E54CC-4AB2-483F-BAEB-3B7BB1D57CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A7E54CC-4AB2-483F-BAEB-3B7BB1D57CC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B0D8F14-D8AD-4F75-A3D0-0DE5C237B8EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B0D8F14-D8AD-4F75-A3D0-0DE5C237B8EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B0D8F14-D8AD-4F75-A3D0-0DE5C237B8EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B0D8F14-D8AD-4F75-A3D0-0DE5C237B8EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {989B8532-E0C1-4229-AD0E-E35033F4E86C}
+	EndGlobalSection
+EndGlobal
