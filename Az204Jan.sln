@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDB.DotNetSDK", "Cosmo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDB.SP_Triggers_UDFS", "CosmosDB.SP_Triggers_UDFS\CosmosDB.SP_Triggers_UDFS.csproj", "{9B0D8F14-D8AD-4F75-A3D0-0DE5C237B8EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationWebApp", "AuthenticationWebApp\AuthenticationWebApp.csproj", "{D53B87BE-50D5-4614-88E3-C95E1145BF88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.AppInsight", "WebApp.AppInsight\WebApp.AppInsight.csproj", "{90C94268-BCDE-4FAB-A5E6-7E052C46578F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{9B0D8F14-D8AD-4F75-A3D0-0DE5C237B8EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B0D8F14-D8AD-4F75-A3D0-0DE5C237B8EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B0D8F14-D8AD-4F75-A3D0-0DE5C237B8EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D53B87BE-50D5-4614-88E3-C95E1145BF88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D53B87BE-50D5-4614-88E3-C95E1145BF88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D53B87BE-50D5-4614-88E3-C95E1145BF88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D53B87BE-50D5-4614-88E3-C95E1145BF88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90C94268-BCDE-4FAB-A5E6-7E052C46578F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C94268-BCDE-4FAB-A5E6-7E052C46578F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C94268-BCDE-4FAB-A5E6-7E052C46578F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C94268-BCDE-4FAB-A5E6-7E052C46578F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
